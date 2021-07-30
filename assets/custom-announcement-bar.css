@@ -1,0 +1,15 @@
+.announce-bar{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding: 7px 0;
+  font-size: .8rem;
+  background: #209a9a;
+  color: white;
+  font-weight: 400;
+  top: 0px;
+  z-index: 9;
+  width: 100%;
+  
+}
+
