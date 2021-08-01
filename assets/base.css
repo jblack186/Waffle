@@ -11,8 +11,8 @@
 }
 
 .color-inverse {
-  color: yellow;
-  background: black;
+  --color-foreground: var(--color-base-background-1);
+  --color-background: var(--color-base-text);
 }
 
 .color-accent-1 {
@@ -73,13 +73,13 @@
   --alpha-button-background: 0;
 }
 
-/* .color-background-2 .button--secondary,
+.color-background-2 .button--secondary,
 .color-inverse .button--secondary,
 .color-accent-1 .button--secondary,
 .color-accent-2 .button--secondary {
   --color-button: var(--color-foreground);
   --color-button-text: var(--color-foreground);
-} */
+}
 
 .button--tertiary {
   --color-button: var(--color-base-outline-button-labels);
@@ -88,13 +88,13 @@
   --alpha-button-border: 0.2;
 }
 
-/* .color-background-2 .button--tertiary,
+.color-background-2 .button--tertiary,
 .color-inverse .button--tertiary,
 .color-accent-1 .button--tertiary,
 .color-accent-2 .button--tertiary {
   --color-button: var(--color-foreground);
   --color-button-text: var(--color-foreground);
-} */
+}
 
 :root,
 .color-background-1 {
@@ -118,9 +118,9 @@
   --color-card-hover: var(--color-base-text);
 }
 
-/* .color-inverse {
+.color-inverse {
   --color-card-hover: var(--color-base-background-1);
-} */
+}
 
 .color-accent-1,
 .color-accent-2 {
