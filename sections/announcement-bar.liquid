@@ -18,7 +18,9 @@
         {%- endif -%}
       </div> {% endcomment %}
     
-      <div class="announcement-bar color-{{ block.settings.color_scheme }}" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} height-{{blocks.settings.height}}}"
+        
+        role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
@@ -94,8 +96,31 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        },
+        {
+          "type": "select",
+          "id": "height",
+          "label": "height",
+          "options": [
+            {
+              "value": "50px",
+              "label": "small"
+            },
+            {
+              "value": "80px",
+              "label": "medium"
+            },
+            {
+              "value": "100px",
+              "label": "large"
+            }
+
+
+          ]
+
         }
-      ]
+
+     
     }
   ],
   "default": {

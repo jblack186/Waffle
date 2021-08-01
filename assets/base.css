@@ -2089,3 +2089,15 @@ details-disclosure > details {
     overflow: auto;
   }
 }
+
+.announcement-bar.height-small {
+  height: 50px;
+}
+
+.announcement-bar.height-medium {
+  height: 80px;
+}
+
+.announcement-bar.height-large {
+  height: 100px;
+}
