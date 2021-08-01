@@ -9,7 +9,8 @@
             "settings": {
               "text": "SALE - 15% OFFies on all orders over $50",
               "color_scheme": "inverse",
-              "link": ""
+              "link": "",
+              "height": "80px"
             }
           }
         },
