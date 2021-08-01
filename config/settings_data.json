@@ -8,9 +8,9 @@
             "type": "announcement",
             "settings": {
               "text": "SALE - 15% OFFies on all orders over $50",
-              "color_scheme": "inverse",
+              "color_scheme": "accent-1",
               "link": "",
-              "size": "small"
+              "size": "large"
             }
           }
         },
