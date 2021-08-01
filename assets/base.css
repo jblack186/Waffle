@@ -2090,6 +2090,12 @@ details-disclosure > details {
   }
 }
 
+
+.announcement-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .announcement-bar.height-small {
   height: 50px;
 }
@@ -2104,14 +2110,14 @@ details-disclosure > details {
 }
 
 .announcement-bar.font-size-small {
-  height: 50px;
+  font-size: 1rem;
 }
 
 .announcement-bar.font-size-medium {
-  height: 80px;
+  font-size: 1.2rem;
 }
 
 .announcement-bar.font-size-large {
-  height: 100px;
+  font-size: 1.4rem;
   
 }
