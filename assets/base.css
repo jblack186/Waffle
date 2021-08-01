@@ -118,9 +118,9 @@
   --color-card-hover: var(--color-base-text);
 }
 
-.color-inverse {
+/* .color-inverse {
   --color-card-hover: var(--color-base-background-1);
-}
+} */
 
 .color-accent-1,
 .color-accent-2 {
