@@ -10,6 +10,11 @@
   --color-background: var(--color-base-background-2);
 }
 
+.color-background-3 {
+  color: black;
+  background: yellow;
+}
+
 .color-inverse {
   --color-foreground: var(--color-base-background-1);
   --color-background: var(--color-base-text);
