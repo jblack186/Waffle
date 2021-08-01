@@ -18,12 +18,12 @@
         {%- endif -%}
       </div> {% endcomment %}
     
-      <div class="announcement-bar color-{{ block.settings.color_scheme }} height-{{block.settings.size}} font-size-{{block.settings.font-size}}" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} height-{{block.settings.size}} " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
-              <p class="announcement-bar__message h5">
+              <p class="announcement-bar__message h5 font-size-{{block.settings.font-size}}">
                 {{ block.settings.text | escape }}
                 {%- if block.settings.link != blank -%}s
                   {% render 'icon-arrow' %}
@@ -106,7 +106,7 @@
             },
             {
               "value": "large",
-              "label": "larges"
+              "label": "large"
             }
 
 
