@@ -18,9 +18,7 @@
         {%- endif -%}
       </div> {% endcomment %}
     
-      <div class="announcement-bar color-{{ block.settings.color_scheme }} height-{{blocks.settings.height}}}"
-        
-        role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      <div class="announcement-bar color-{{ block.settings.color_scheme }}" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
@@ -66,46 +64,6 @@
               "value": "background-1",
               "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__1.label"
             },
-
-            {
-              "value": "background-3",
-              "label": "new"
-            },
-
-            {
-              "value": "background-2",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__2.label"
-            },
-            {
-              "value": "inverse",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__3.label"
-            },
-            {
-              "value": "accent-1",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__4.label"
-            },
-            {
-              "value": "accent-2",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__5.label"
-            }
-          ],
-          "default": "accent-1",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.label"
-        },
-        {
-          "type": "select",
-          "id": "color_scheme",
-          "options": [
-            {
-              "value": "background-1",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__1.label"
-            },
-
-            {
-              "value": "background-3",
-              "label": "new"
-            },
-
             {
               "value": "background-2",
               "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__2.label"
@@ -153,8 +111,7 @@
           ]
 
         }
-
-     
+      ]
     }
   ],
   "default": {
