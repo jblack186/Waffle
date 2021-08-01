@@ -2100,4 +2100,18 @@ details-disclosure > details {
 
 .announcement-bar.height-large {
   height: 100px;
+
+}
+
+.announcement-bar.font-size-small {
+  height: 50px;
+}
+
+.announcement-bar.font-size-medium {
+  height: 80px;
+}
+
+.announcement-bar.font-size-large {
+  height: 100px;
+  
 }
