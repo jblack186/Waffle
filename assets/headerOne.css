@@ -104,12 +104,19 @@ header.header1 .header1__logo a {
 /*# sourceMappingURL=Header1.css.map */
 
 /* account bar starts */
-#shopify-section-account-bar {
+#shopify-section-account-bar.sticky {
   position: sticky;
   top: 0px;
   z-index: 9;
 
 }
+
+#shopify-section-account-bar.fixed {
+  position: static;
+  top: unset;
+
+}
+
 .account-bar {
   display: flex;
   align-items: center;
