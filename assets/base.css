@@ -2109,15 +2109,16 @@ details-disclosure > details {
 
 }
 
-.announcement-bar__message.font-size-small {
+.announcement-bar__message.fontSize-small {
   font-size: 12px;
 }
 
-.announcement-bar__message.font-size-medium {
+.announcement-bar__message.fontSize-medium {
   font-size: 18px;
 }
 
-.announcement-bar__message.font-size-large {
+.announcement-bar__message.fontSize-large {
   font-size: 22px;
   
 }
+
