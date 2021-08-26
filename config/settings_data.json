@@ -54,6 +54,45 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "announce": {
+        "type": "announce",
+        "blocks": {
+          "announce-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "SALE - 15% OFF on all orders over $50",
+              "color_scheme": "accent-1",
+              "link": "",
+              "size": "small",
+              "font-size": "small"
+            }
+          }
+        },
+        "block_order": [
+          "announce-0"
+        ],
+        "settings": {
+        }
+      },
+      "account-bar": {
+        "type": "account-bar",
+        "blocks": {
+          "account-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "color_scheme": "accent-2",
+              "link": "",
+              "size": "small",
+              "font-size": "large"
+            }
+          }
+        },
+        "block_order": [
+          "account-bar-0"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
