@@ -62,10 +62,10 @@
             "type": "announcement",
             "settings": {
               "text": "SALE - 15% OFF on all orders over $50",
-              "color_scheme": "accent-2",
+              "color_scheme": "background-2",
               "link": "",
-              "size": "large",
-              "font-size": "medium"
+              "size": "small",
+              "font-size": "small"
             }
           }
         },
